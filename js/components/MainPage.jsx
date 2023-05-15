@@ -38,7 +38,7 @@ export default function MainPage() {
 		<section className="bg-white dark:bg-blue-900">
 			<div className="container px-6 py-10 mx-auto">
 				<h1 className="w-[500px] mx-auto text-center text-5xl">Muzeele din București</h1>
-				<p className="w-[1000px] mx-auto text-center mt-4 text-2xl">Ghidul tău turistic ce îți prezintă informații despre cele mai fascinante muzee din capitala României. Acum e mult mai simplu să vizitezi fiind informat!</p>
+				<p className="w-[1000px] mx-auto text-center mt-4 text-2xl">Ghidul tău turistic ce îți prezintă informații despre cele mai fascinante muzee din capitala României! Acum e mult mai simplu să vizitezi fiind informat!</p>
 
 				<div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3">
 					{records.map(record => (
