@@ -35,7 +35,7 @@ export default function MainPage() {
 	}
 
 	return (
-		<section className="bg-white dark:bg-white-900">
+		<section className="bg-white dark:bg-blue-900">
 			<div className="container px-6 py-10 mx-auto">
 				<h1 className="w-[500px] mx-auto text-center text-5xl">Muzeele din București</h1>
 				<p className="w-[1000px] mx-auto text-center mt-4 text-2xl">Ghidul tău turistic ce îți prezintă informații despre cele mai fascinante muzee din capitala României. Acum e mult mai simplu să vizitezi fiind informat!</p>
@@ -44,7 +44,7 @@ export default function MainPage() {
 					{records.map(record => (
 						<div
 							key={record._id}
-							className="block max-w-sm p-6 bg-blue border border-blue-200 rounded-lg shadow hover:bg-blue-100 dark:bg-blue-800 dark:border-blue-700 dark:hover:bg-blue-700">
+							className="block max-w-sm p-6 bg-blue border border-white-200 rounded-lg shadow hover:bg-blue-100 dark:bg-blue-800 dark:border-blue-700 dark:hover:bg-blue-700">
 							<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-blue">
 								{record.title}
 							</h5>
