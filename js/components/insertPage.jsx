@@ -1,4 +1,4 @@
-// js/components/InsertPage.jsx
+//  js/components/InsertPage.jsx
 export default function InsertPage() {
 	const insertRecord = (event) => {
 		event.preventDefault();
